@@ -2,8 +2,6 @@ version : "3.3"
 services:
   web:
     build : .
-    deploy:
-        replicas: 2
     ports:
       - "8001:8000"
   db:
